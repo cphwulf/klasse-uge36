@@ -13,7 +13,8 @@ public class FormatTwo {
       // brug System.out.printf til at printe flg:
       // 0,14
       // |  Kurt Verner|
-      // 120,001,231
+      double x= 120001231.0;
+      System.out.printf("%,.0f%n",x);
       // 000022
       // | z|   z|
       // | z|   z|  Kurt Verner| z|
